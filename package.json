@@ -1,0 +1,23 @@
+{
+  "name": "telegram_currency_22bot",
+  "version": "1.0.0",
+  "description": "pet-project for fun",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OrchidClouse/telegram_currency_22bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OrchidClouse/telegram_currency_22bot/issues"
+  },
+  "homepage": "https://github.com/OrchidClouse/telegram_currency_22bot#readme",
+  "dependencies": {
+    "node-telegram-bot-api": "0.60.0"
+  }
+}
