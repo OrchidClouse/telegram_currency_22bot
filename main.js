@@ -1,7 +1,7 @@
 const TelegramBot = require('node-telegram-bot-api');
 const request = require('request');
-let url = 'https://v6.exchangerate-api.com/v6/API-TOKEN/latest/USD';
-const token = 'token';
+let url = 'https://v6.exchangerate-api.com/v6/api-token/latest/USD';
+const token = 'telegram token';
 
 const bot = new TelegramBot(token, {polling: true});
 
@@ -37,4 +37,3 @@ bot.onText(/info/, function(msg){
     Developed by: @froyaroom
     `)
 });
-
